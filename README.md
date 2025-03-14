@@ -1,70 +1,136 @@
-# 📊 **Customer Transaction Analysis Dashboard**
+# Cafe Offers Analysis Dashboard
 
-This project analyzes customer transactions, focusing on key performance metrics, offer effectiveness, and customer demographics from 2013 to 2018. By visualizing critical data points, this dashboard provides valuable insights for optimizing marketing strategies, improving offer targeting, and enhancing customer engagement.
+This dashboard presents detailed insights on customer engagement with offers and revenue generated at the cafe. The analysis spans over a period from 2013 to 2018, and it includes a breakdown of customer demographics, offer types, and revenue by gender, age group, and income level.
 
----
+## Overview
 
-## 🔍 **Key Visual Insights**
-
-### **1️⃣ Overview of Key Metrics**
-- **Total Customers:** `17,000`
-- **Total Transactions:** `2 million`
-- **Total Rewards:** `165,000 units`
-
-#### **Trends by Year**
-- Customer and transaction numbers grew steadily from 2013, peaked in 2017, and declined in 2018.
-  
-#### **Customer Demographics**
-- **Age Groups:**  
-  - Largest groups: **58-73** and **18-45 years old** (~4.4K customers each).  
-- **Income Levels:**  
-  - Mid-income customers dominate transactions, followed by low- and high-income groups.
-- **Gender Distribution:**  
-  - **Male:** `49.9%`  
-  - **Female:** `36.05%`  
-  - **Others:** Remaining percentage.
+- **Total Customers**: 14K  
+- **Total Revenue**: $151K  
+- **Total Transactions**: 117K
 
 ---
 
-### **2️⃣ Offer Effectiveness Analysis**
-The dashboard evaluates how different offer types perform across various demographics.
+## Yearly Customer Data
 
-#### **Offer Categories**
-- **Discount**, **BOGO (Buy-One-Get-One)**, and **Informational**.
-  
-#### **Offer Performance Metrics**
-- Metrics include:  
-  - **Offers Received**, **Viewed**, and **Completed**.
-  - Discount offers have a higher completion rate compared to other types.
+The following chart displays the growth in customers over the years:
 
-#### **Performance by Customer Segments**
-- **Income Level:**  
-  - Mid-income customers complete more offers than both low- and high-income groups.
-  
-- **Age Group:**  
-  - Older customers (58-73) complete more offers than younger age segments.
-
-#### **Offer Rewards**
-- Offers with higher rewards ($10) show better completion rates compared to those with lower reward values ($0-$5).
+- **2013**: 0.3K customers
+- **2014**: 0.6K customers
+- **2015**: 1.5K customers
+- **2016**: 2.9K customers
+- **2017**: 3.5K customers
+- **2018**: 5.3K customers
 
 ---
 
-### **3️⃣ Additional Offer and Event Analysis**
-- A **pie chart** shows completed offers by gender, with males and females contributing almost equally.
-- **Offer Completion by Type:** Discount offers are most successful, followed by BOGO offers.
-- **Daily Trends:** Peaks in offer completions are observed during key promotional periods.
+## Gender Breakdown
+
+- **Male**: 8.01K customers (57.3%)
+- **Female**: 5.7K customers (40.7%)
+- **Other**: 573 customers (2%)
 
 ---
 
-## 🛠️ **Optimize Campaign Strategy with These Insights!**
-This dashboard empowers businesses to:
-- Track customer behavior and transaction trends.
-- Evaluate the success of marketing offers.
-- Refine marketing strategies for different customer demographics.
+## Age Group Distribution
+
+- **18-45**: 4.1K customers
+- **59-73**: 4.0K customers
+- **46-58**: 3.9K customers
+- **74+**: 2.0K customers
 
 ---
 
-## 🚀 **Project Features**
-- 📈 Interactive data visualizations for customer transactions and offer performance.
-- 📊 Analysis of offer effectiveness across demographics.
-- 📅 Yearly trends and promotional performance tracking.
+## Income Level Distribution
+
+- **Mid**: 7.2K customers
+- **Low**: 3.5K customers
+- **High**: 3.3K customers
+
+---
+
+## Offer Engagement
+
+The following data shows how offers are received, viewed, and completed by customers:
+
+### By Offer Type
+
+| Offer Type    | Received | Viewed | Completed |
+| ------------- | -------- | ------ | --------- |
+| Bogo          | 25K      | 21K    | 14K       |
+| Discount      | 25K      | 17K    | 16K       |
+| Information   | 13K      | 21K    | 9K        |
+
+### By Gender
+
+| Gender | Received | Viewed | Completed |
+| ------ | -------- | ------ | --------- |
+| Male   | 36K      | 27K    | 15K       |
+| Female | 26K      | 20K    | 15K       |
+| Other  | 2K       | 1K     | 1K        |
+
+### By Age Group
+
+| Age Group | Received | Viewed | Completed |
+| --------- | -------- | ------ | --------- |
+| 59-73     | 18K      | 13K    | 9K        |
+| 46-58     | 17K      | 15K    | 9K        |
+| 18-45     | 19K      | 14K    | 8K        |
+| 74+       | 9K       | 5K     | 2K        |
+
+### By Income Level
+
+| Income Level | Received | Viewed | Completed |
+| ------------ | -------- | ------ | --------- |
+| Mid          | 32K      | 25K    | 16K       |
+| High         | 15K      | 12K    | 9K        |
+| Low          | 9K       | 5K     | 2K        |
+
+---
+
+## Revenue Analysis
+
+- **Total Revenue**: $1.63M
+- **Average Order Value**: $13.91
+
+### By Gender
+
+| Gender | Revenue |
+| ------ | ------- |
+| Female | $0.81M  |
+| Male   | $0.80M  |
+| Other  | $0.02M  |
+
+### By Age Group
+
+| Age Group | Revenue |
+| --------- | ------- |
+| 59-73     | $0.50M  |
+| 46-58     | $0.47M  |
+| 18-45     | $0.40M  |
+| 74+       | $0.26M  |
+
+### By Income Level
+
+| Income Level | Revenue |
+| ------------ | ------- |
+| Mid          | $0.81M  |
+| High         | $0.59M  |
+| Low          | $0.23M  |
+
+---
+
+## Customer Rewards
+
+| Customer ID                                 | Total Revenue | Total Rewards |
+| ------------------------------------------- | ------------- | ------------- |
+| 3c8d541112a74af99e88abbd0692f00e            | $1,608        | $23           |
+| f1dd65ae63f174b8f80fa063cadaa63b7           | $1,367        | $29           |
+| ae6f43089b67427a50b87272a8e7fae10f6         | $1,327        | $17           |
+| 73afdeca19e349b90982495117f6fe3c1e6         | $1,321        | $17           |
+| 52959f911913e24a8cb3be3d48e642fb10c         | $1,311        | $19           |
+
+---
+
+## Conclusion
+
+This dashboard offers a detailed breakdown of customer behavior in relation to offers, transactions, and revenue generation, segmented by age, gender, and income level. It highlights trends in customer preferences and can guide targeted marketing and promotional strategies for better engagement and higher revenue.
